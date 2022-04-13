@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:  0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+header{
+    background-image:linear-gradient(rgba(52, 52, 54, 0.582),rgba(6, 59, 55, 0.411)), url(utilidades/img/head1.png);
+    background-size: cover;
+    background-position:bottom;
+    
+}
+
+body{
+    background-color: rgba(230, 167, 116, 0.61);
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+nav{
+    
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border: 0.5px solid rgb(24, 146, 115);
+    border-radius: 55%;
+    background-color: rgb(177, 194, 202);
+}
+
+img {
+    padding: 8px;
+    box-sizing: content-box;
+    max-width: 100%;
+    height: 40vh;
+    border-radius: 8%;
+
+
+}
+
+
+div h1, h2 {
+    
+    color: rgb(157, 223, 214);
+    text-align: center;
+}
+
+.profile{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+
+.profile_options {
+    
+    margin: 5%;
+    border: solid 2px #155050;
+    border-radius: 8%;
+    box-shadow: 0px 25px 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+
+.profile_options a{
+    object-fit: contain;
+    width: 100%;
+    align-items: center;
+}
+
+.profile_options img{
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.profile_options h2{
+    color: #155050;
+}
+
+footer img{
+    width: 100%;
+    height: auto;
+    box-shadow: 25px 0px 25px;
+}
+h2{
+    max-width: 50%;
+    font-size: medium;
+}
+
+a{
+    max-width: 50%;
+    
+}

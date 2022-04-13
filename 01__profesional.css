@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:  0px;
+    /* box-sizing: border-box; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.logo{
+    width: 50px;
+    
+}
+
+body{
+    border: 2px solid blue;
+}
+
+main{
+    width: max-content;
+    border: 2px solid red;
+    position: relative;
+}
+
+.principal{
+    border: 3px dotted rgb(38, 240, 12);
+    display: flex;
+    flex-direction: wrap;
+    
+
+}
+
+div{
+    max-width: 50%;
+    border: 2px solid orangered;
+    background-color: aquamarine;
+}
+
+nav{
+    border: 2px solid yellow;
+    height: 100vh;
+}
+
